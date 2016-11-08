@@ -1,0 +1,35 @@
+body {
+	background: #ececec url(../images/sos.png)repeat;
+	font-size: 87.5%;
+	font-family: arial, sans-serif;
+	color: #666;
+	line-height: 1.7em;
+	text-align: left;
+}
+
+/*fluid layout*/
+
+#container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+/*resize logo image*/
+.main-header #logo {
+	width: 80%;
+	margin: 10px 0;
+}
+
+/*automatically resize main content(posts)*/
+#content{
+	width: 70%;
+	float: left;
+	overflow: auto;
+}
+
+/*since it is on the side of the main content the width should add up woth content size*/
+#sidebar {
+	width: 30%;
+	float: left;
+}
