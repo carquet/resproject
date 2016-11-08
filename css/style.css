@@ -165,5 +165,64 @@ footer p{
 
 	#sidebar .block{
 	margin-left: 0;
+	}
 }
+
+/*MOBILE VIEW SMALLER TABLETS portrait and landscape*/
+
+@media only screen and (min-width: 569px) and (max-width: 767px){
+	/*content wider and sidebar underneath*/
+	#container{
+		width: 95%;
+	}
+
+	.main-nav{
+	height: auto;
+	display: block;
+	overflow: hidden;
+	width: 99%;
+	}
+
+	.main-nav ul{
+	padding: 2% 1%;
+	text-align: center;
+	width: 98%;
+	}
+
+	.main-nav li{
+	float: none;
+	display: block;
+	margin-right: 0;
+	width: 100%;
+	border-bottom: 1px solid #a3293b;
+	}
+
+	.main-nav li a{
+	margin-bottom: 2px ;
+	text-align: center;
+	}
+
+	.main-nav li a:hover, .main-nav li a.active{
+	display: block;
+	}
+
+	.main-header #logo{
+		margin: auto;
+		display: block;
+		width: 65%;
+	}
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar .block{
+	margin-left: 0;
+	}
 }
