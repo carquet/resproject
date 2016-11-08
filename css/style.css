@@ -226,3 +226,63 @@ footer p{
 	margin-left: 0;
 	}
 }
+
+
+/*MOBILE VIEW SMARTPHONE portrait and landscape*/
+
+@media only screen and (min-width: 240px) and (max-width: 568px){
+	/*content wider and sidebar underneath*/
+	#container{
+		width: 95%;
+	}
+
+	.main-nav{
+	height: auto;
+	display: block;
+	overflow: hidden;
+	width: 99%;
+	}
+
+	.main-nav ul{
+	padding: 2% 1%;
+	text-align: center;
+	width: 98%;
+	}
+
+	.main-nav li{
+	float: none;
+	display: block;
+	margin-right: 0;
+	width: 100%;
+	border-bottom: 1px solid #a3293b;
+	}
+
+	.main-nav li a{
+	margin-bottom: 2px ;
+	text-align: center;
+	}
+
+	.main-nav li a:hover, .main-nav li a.active{
+	display: block;
+	}
+
+	.main-header #logo{
+		margin: auto;
+		display: block;
+		width: 95%;
+	}
+
+	#content {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar .block{
+	margin-left: 0;
+	}
+}
